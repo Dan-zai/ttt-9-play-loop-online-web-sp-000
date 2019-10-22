@@ -35,4 +35,11 @@ def turn(board)
   end
 end
 
-# Define your play method below
+def play(board)
+  your_turn = 0 
+  until your_turn == 9 
+  turn(board)
+  your_turn += 1
+end
+end
+
